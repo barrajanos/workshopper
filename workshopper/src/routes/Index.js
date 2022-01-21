@@ -1,9 +1,11 @@
 import react from "react"
+import {Button, Typography} from '@mui/material';
 
 function Index() {
     return (
         <>
-        <h1>Hello world</h1>
+        <Typography variant="h2">Cigo</Typography>
+        <Button variant="contained">Hello</Button>
         </>
     )
 
